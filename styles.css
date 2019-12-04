@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+
+}
+
+h1, h2, label {
+    color: white;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1em;
+    margin-top: 3em;
+    margin-left: 2em;
+    color: white;
+    font-family: 'AvenirNext-DemiBold';
+}
+
+h2 {
+    font-size: 2em;
+    margin-left: 2em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    font-family: 'AvenirNext-DemiBold';
+}
+
+input {
+    display: none;
+}
+
+div.button{
+    margin-left: 4em;
+}
+
+label {
+    font-family: 'AvenirNext-Regular';
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 0.7em;
+
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+
+    border-radius: 1px;
+    font-weight: medium;
+
+}
+
+input:checked + label {
+    background-color: #2a2a2a ;
+    color: white;
+}
+
+.onzichtbaar {
+    visibility: hidden;
+}
+
+#prijzen {
+    margin-top: 53%;
+    margin-left: 3em;
+    width: 10em;
+}
+
+#politiek {
+    margin-top: 53%;
+    width: 10em;
+}
+
+section img{
+    position: absolute;
+    width: 100%;
+    margin-top: -1em;
+    margin-left: 3em;
+    z-index: -1;
+}
+
+#namen {
+    position: absolute;
+    color: #2a2a2a;
+    font-family: 'AvenirNext-Regular';
+    margin-left: 78%;
+    font-size: 0.7em;
+    margin-top: -11em;
+    text-align: center;
+    font-weight: 900;
+}
+
+#tekst {
+    color: white;
+    font-family: 'AvenirNext-Regular';
+    margin-top: -0.3em;
+    margin-bottom: 0.5em;
+    margin-left: 5.8em;
+    font-size: 0.7em;
+    font-weight: medium;
+}
+
+@media (min-width: 45em){
+
+    section img{
+        position: absolute;
+        width: 693px;
+        margin-top: -2em;
+    }
+
+    #prijzen {
+        margin-top: 22em;
+        margin-left: 3em;
+        width: 10em;
+    }
+    
+    #politiek {
+        margin-top: 21em;
+        width: 10em;
+    }
+
+    #namen {
+        margin-left: 85%;
+    }
+
+}
+
+@media (min-width: 70em){
+    section img{
+        position: absolute;
+        width: 800px;
+        margin-top: -9em;
+        margin-left: 40%;
+    }
+
+    #prijzen {
+        position: absolute;
+        margin-top: 3em;
+        margin-left: 3em;
+        width: 15em;
+    }
+    
+    #politiek {
+        position: absolute;
+        margin-top: 3.2em;
+        width: 15em;
+        margin-left: 17em;
+    }
+
+    #namen {
+        margin-left: 90%;
+    }
+}

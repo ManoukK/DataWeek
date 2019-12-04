@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Woonwijzer</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h1>Woonwijzer.</h1>
+
+        <h2>Op wie stem jij?</h2>
+
+        <p id="namen" >Made by </br> Manouk Kappé </br> & </br> Lisa Bot</p>
+
+        <p id="tekst"> Kies uit de meest voorkomende partijen in Amsterdam.</p>
+
+        <div class="button">
+
+            <input type="checkbox" id="d66knop" onclick="d66()" checked="false">
+            <label for="d66knop">D66</label>
+
+            <input type="checkbox" id="groenlinksknop" onclick="groenlinks()" checked="false">
+            <label for="groenlinksknop">Groenlinks</label>
+            
+            <input type="checkbox" id="vvdknop" onclick="vvd()" checked="false">
+            <label for="vvdknop">VVD</label>
+
+            <input type="checkbox" id="denkknop" onclick="denk()" checked="false">
+            <label for="denkknop">Denk</label>
+            
+            <input type="checkbox" id="fvdknop" onclick="fvd()" checked="false">
+            <label for="fvdknop">FvD</label>
+
+            <input type="checkbox" id="pvdaknop" onclick="pvda()" checked="false">
+            <label for="pvdaknop">PVDA</label>
+
+            <input type="checkbox" id="christenknop" onclick="christen()" checked="false">
+            <label for="christenknop">Christen Unie</label>
+
+            <input type="checkbox" id="geenkeuzeknop" onclick="onbekend()" checked="false">
+            <label for="geenkeuzeknop">Maakt mij niet uit</label>
+        </div>
+
+        <section class="image">
+            <img src="image/achtergrond@3x.png">
+            <img class="onzichtbaar" id="groenlinks" src="image/GroenLinks kopie@3x.png">
+            <img class="onzichtbaar" id="d66" src="image/D66 kopie@3x.png">
+            <img class="onzichtbaar" id="vvd" src="image/VVD kopie@3x.png">
+            <img class="onzichtbaar" id="denk" src="image/Denk kopie@3x.png">
+            <img class="onzichtbaar" id="fvd" src="image/FdV kopie@3x.png">
+            <img class="onzichtbaar" id="pvda" src="image/PvdA kopie@3x.png">
+            <img class="onzichtbaar" id="christen" src="image/ChristenUnie kopie@3x.png">
+            <img class="onzichtbaar" id="onbekend" src="image/Onbekend kopie@3x.png">
+        </section>
+
+        <div>
+            <img id="prijzen" src="image/legendaprijzen.png">
+            <img id="politiek" src="image/legendapolitiek.png">
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
